@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+nav{
+background-color: none;
+color: rgb(167, 152, 152);
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.nav-links li{
+    margin-right: 20px;
+    
+}
+.nav-links a{
+    text-decoration: none;
+    font-weight: 600px;
+    font-size: 16px;
+}
+.active{
+    color: red;
+}
+a:hover{
+    color: red;
+}
+#button-container{
+    text-align: center;
+}
+.my-button{
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: red;
+}
+/* Hero Section */
+.content{
+    color: white;
+    background-image: url('./images/2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-align: none;
+}
+h1{
+    font-weight: 700px;
+    font-size: 48px;
+}
+.subtitle{
+    font-size: 24px;
+    font-weight: 600px;
+}
+.my-button2{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 500px;
+    width: 130px;
+}
+
+.content2{
+    text-align: center;
+    font-weight: 32px;
+}
+.under{
+    background-color: red;
+    width: 180px;
+    height: 6px;
+    border: none;
+    border-radius: 8px;
+    margin: 0 auto;
+    flex-shrink: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    gap: 20px;
+}
+.column{
+    padding: 20px;
+}
+.title{
+    padding: 20px;
+    text-align: right;
+    
+}
+h2{
+    font-size: 32px;
+}
